@@ -83,13 +83,13 @@ module.exports = {
     plugins: [new TsconfigPathsPlugin()]
   },
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, './build'),
     filename: '[name].js'
   },
   devtool: 'inline-source-map',
   devServer: {
     static: {       
-      directory: path.resolve(__dirname, './dist')
+      directory: path.resolve(__dirname, './build')
     },
     client: {
       progress: true,
