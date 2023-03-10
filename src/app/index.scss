@@ -1,0 +1,11 @@
+@import './styles/normilize.scss';
+@import './styles/vars.scss';
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.tui-image-editor-header-buttons, .tui-image-editor-header-logo, .tui-image-editor-controls, .tui-image-editor-menu , .tui-image-editor-help-menu {
+  visibility: hidden !important;
+  display: none !important;
+}

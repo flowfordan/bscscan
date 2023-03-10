@@ -1,0 +1,22 @@
+.itemData {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.itemData__content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+
+  padding-top: 20px;
+  width: 1400px;
+
+  &__imgContainer {
+    background-color: white;
+  }
+
+  &__dataContainer {
+    background-color: white;
+  }
+}

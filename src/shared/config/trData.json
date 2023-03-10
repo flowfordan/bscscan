@@ -1,0 +1,43 @@
+{
+  "description": "",
+  "image": "https://data.ifiniti.co/ifc/ed348259-5864-440b-a4c5-523657361ede.png",
+  "name": "IFC #5",
+  "attributes": [
+    {
+      "trait_type": "Asset Name",
+      "value": "Cyberpunk Game copy"
+    },
+    {
+      "trait_type": "Copy Number",
+      "value": "5"
+    },
+    {
+      "trait_type": "Origin Company",
+      "value": "CD Project Red"
+    },
+    {
+      "trait_type": "Owner E-mail",
+      "value": "kml@bk.ru"
+    },
+    {
+      "trait_type": "Owner Wallet",
+      "value": "0x768c6E36bf628F01BFb915980BeEA76AE9638250"
+    },
+    {
+      "trait_type": "Buy Price",
+      "value": "1"
+    },
+    {
+      "trait_type": "Return Price",
+      "value": "2"
+    },
+    {
+      "trait_type": "Repayment Date Start",
+      "value": "2023-03-01"
+    },
+    {
+      "trait_type": "Repayment Date End",
+      "value": "2023-03-31"
+    }
+  ]
+}
