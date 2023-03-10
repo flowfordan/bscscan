@@ -1,2 +1,2 @@
-export * from "./api/client/apiClient";
 export * from "./config/token";
+export * from "./ui/Property/Property";

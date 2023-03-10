@@ -1,5 +1,3 @@
 export const Error = () => {
-  //header
-  //error
-  return <div>Error Page</div>;
+  return <div>There is no such Page</div>;
 };

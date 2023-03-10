@@ -1,11 +1,7 @@
 //Routing for the pages
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import { Home } from "./Home";
+import { Error } from "./Error/Error";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -13,6 +9,6 @@ export const router = createBrowserRouter([
   },
   {
     path: "/*",
-    element: <div>Error</div>,
+    element: <Error />,
   },
 ]);

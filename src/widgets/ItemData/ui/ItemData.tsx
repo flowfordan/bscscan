@@ -1,20 +1,12 @@
 import { useEffect, useState } from "react";
 import "./itemData.scss";
-import { ITrData, trData } from "shared";
+import { ITrData, Property, trData } from "shared";
 import Card from "@mui/material/Card";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableFooter from "@mui/material/TableFooter";
-import TablePagination from "@mui/material/TablePagination";
-import TableRow from "@mui/material/TableRow";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { Property } from "shared/ui";
 
 export const ItemData = () => {
   const [itemData, setItemData] = useState<ITrData | null>();
