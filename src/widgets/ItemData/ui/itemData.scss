@@ -12,21 +12,23 @@
   padding-top: 20px;
   width: 1400px;
 
-  &__imgContainer {
-    padding: 10px;
-    position: relative;
-    // background-color: white;
-    min-height: 400px;
-    max-height: 800px;
-    object-fit:contain;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
+  &__imgContainerWrapper {
+    padding: 8px;
+
+    &__container {
+      position: relative;
+      min-height: 400px;
+      max-height: 800px;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
 
     img{
-      // display: block;
-      // margin: auto;
+      max-width: 100%;
+      max-height: 100%;
     }
+    }
+
   }
 
   &__dataContainer {
@@ -40,5 +42,11 @@
       font-weight: 500;
       padding: 16px;
     }
+  }
+}
+
+@media (max-width: 900px) {
+  .itemData__content {
+    grid-template-columns: 1fr;
   }
 }

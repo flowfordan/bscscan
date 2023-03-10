@@ -28,14 +28,17 @@ export const ItemData = () => {
     <div className="itemData">
       {itemData && (
         <div className="itemData__content">
-          <Card className="itemData__content__imgContainer">
-            {isImgLoading && <div>Loading</div>}
-            <img
-              src={trData.image}
-              alt="picture"
-              onLoad={() => setImgLoading(false)}
-            />
+          <Card className="itemData__content__imgContainerWrapper">
+            <Card className="itemData__content__imgContainerWrapper__container">
+              {isImgLoading && <div>Loading</div>}
+              <img
+                src={trData.image}
+                alt="picture"
+                onLoad={() => setImgLoading(false)}
+              />
+            </Card>
           </Card>
+
           <div className="itemData__content__dataContainer">
             <Card className="itemData__content__dataContainer__title">
               {itemData.name}
