@@ -86,7 +86,7 @@ module.exports = {
     path: path.resolve(__dirname, './build'),
     filename: '[name].js'
   },
-  devtool: 'inline-source-map',
+  devtool: prod ? 'inline-source-map' : false,
   devServer: {
     static: {       
       directory: path.resolve(__dirname, './build')
