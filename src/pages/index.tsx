@@ -2,13 +2,18 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Home } from "./Home";
 import { Error } from "./Error/Error";
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/*",
+      element: <Error />,
+    },
+  ],
   {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/*",
-    element: <Error />,
-  },
-]);
+    basename: `${process.env.BASE_URL}`,
+  }
+);

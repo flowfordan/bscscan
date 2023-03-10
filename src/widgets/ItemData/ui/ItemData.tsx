@@ -15,7 +15,6 @@ export const ItemData = () => {
     setItemData(trData);
     setImgLoading(true);
   }, []);
-  console.log(trData, trData.name);
   return (
     <div className="itemData">
       {itemData && (
