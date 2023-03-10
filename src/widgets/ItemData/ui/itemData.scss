@@ -13,10 +13,32 @@
   width: 1400px;
 
   &__imgContainer {
-    background-color: white;
+    padding: 10px;
+    position: relative;
+    // background-color: white;
+    min-height: 400px;
+    max-height: 800px;
+    object-fit:contain;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+    img{
+      // display: block;
+      // margin: auto;
+    }
   }
 
   &__dataContainer {
-    background-color: white;
+    // background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &__title{
+      font-size: larger;
+      font-weight: 500;
+      padding: 16px;
+    }
   }
 }

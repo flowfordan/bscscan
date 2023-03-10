@@ -1,0 +1,12 @@
+.property {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  padding: 8px 16px;
+
+  &__name {
+    color: rgb(134, 134, 134);
+  }
+
+  &__value {}
+}
