@@ -2,7 +2,7 @@
   "name": "transaction-data",
   "version": "0.0.1",
   "description": "",
-  "homepage": "https://flowfordan.github.io/bscscan/",
+  "homepage": ".",
   "main": "index.tsx",
   "scripts": {
     "dev": "webpack serve --mode=development ",
